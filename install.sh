@@ -24,8 +24,8 @@ function install() {
 }
 
 function update-remote() {
-	cp -rT $KLIPPER_CONFIG_PATH "$SCRIPTDIR/klipper_config/ "
-	echo "Copied configs from $KLIPPER_CONFIG_PATH to $SCRIPTDIR/klipper_config/"
+	cp -rT $KLIPPER_CONFIG_PATH "$SCRIPTDIR/klipper_config/ ";
+	echo "Copied configs from $KLIPPER_CONFIG_PATH to $SCRIPTDIR/klipper_config/";
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

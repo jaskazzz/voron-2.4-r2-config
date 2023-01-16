@@ -1,11 +1,11 @@
 #!/bin/bash
 
-SCRIPTDIR="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )",
+SCRIPTDIR="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )";
 KLIPPER_CONFIG_PATH=~/klipper_config/;
 
 
 function install() {
-	echo "Setting up things..."
+	echo "Setting up things...";
 
 	# Link .bashrc
 	ln -svf "$SCRIPTDIR/.bashrc" ~;

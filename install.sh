@@ -23,8 +23,15 @@ function install() {
 	echo "All done!";
 }
 
+function update-remote() {
+	cp -rT $KLIPPER_CONFIG_PATH "$SCRIPTDIR/klipper_config/ "
+	echo "Copied configs from $KLIPPER_CONFIG_PATH to $SCRIPTDIR/klipper_config/"
+}
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	install;
+elif [ "$1" == "--update-remote" -o "$1" == "-r" ]; then
+	update-remote;
 else
 	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n)" -n 1;
 	echo ""

@@ -24,7 +24,8 @@ function install() {
 }
 
 function update-remote() {
-	cp -rT $KLIPPER_CONFIG_PATH "$SCRIPTDIR/klipper_config/ ";
+	rm -rf "$SCRIPTDIR/klipper_config"
+	cp -r "$KLIPPER_CONFIG_PATH" "$SCRIPTDIR/";
 	echo "Copied configs from $KLIPPER_CONFIG_PATH to $SCRIPTDIR/klipper_config/";
 }
 

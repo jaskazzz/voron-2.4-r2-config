@@ -1,6 +1,6 @@
 # Scripts
 
-[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](/scripts/)
+[![Scripts badge](https://badgen.net/badge/icon/scripts?icon=github&label)](/scripts/)
 
 Scripts are just a collection of tools and scripts for the voron printer.
 

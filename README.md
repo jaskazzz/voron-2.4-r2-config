@@ -1,7 +1,7 @@
 # Voron config
 My voron config for the printer 2.4 r2!
 
-[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](scripts/)
+[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](/scripts/)
 
 Hi!
 This is my config and dotfiles for the Voron 2.4 r2 printer!
@@ -28,8 +28,6 @@ To update, `cd` into your local `voron-2.4-r2-config` repository and then:
 ##### **Warning:** The script does NOT update automatically when using the "--update-remote" or the "--force" options
 
 To update later on, just run that command again
-#
-
 
 ## Feedback
 

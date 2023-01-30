@@ -1,7 +1,7 @@
 # Voron config
 My voron config for the printer 2.4 r2!
 
-[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](/scripts/)
+[![Scripts badge](https://badgen.net/badge/icon/scripts?icon=github&label)](/scripts/)
 
 Hi!
 This is my config and dotfiles for the Voron 2.4 r2 printer!
@@ -32,7 +32,7 @@ To update later on, just run that command again
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/jaskazzz/voron-2.4-r2-config/issues)!
+[Welcome](https://github.com/jaskazzz/voron-2.4-r2-config/issues)!
 
 ## Author
 

@@ -4,7 +4,7 @@
 
 Scripts are just a collection of tools and scripts for the voron printer.
 
-| Script        | Usage        | Location                          |
-| ------------- | ------------ | --------------------------------- |
-| install.sh    | -h for usage | [/](install.sh)                   |
-| clear_logs.sh | No arguments | [scripts/](scripts/clear_logs.sh) |
+| Script        | Usage        | Location                                       |
+| ------------- | ------------ | ---------------------------------------------- |
+| install.sh    | -h for usage | [/install.sh](/install.sh)                      |
+| clear_logs.sh | No arguments | [/scripts/clear_logs.sh](/scripts/clear_logs.sh) |

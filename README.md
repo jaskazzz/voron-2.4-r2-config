@@ -1,7 +1,7 @@
 # Voron config
 My voron config for the printer 2.4 r2!
 
-[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](scripts)
+[![Generic badge](https://badgen.net/badge/icon/scripts?icon=github&label)](scripts/)
 
 Hi!
 This is my config and dotfiles for the Voron 2.4 r2 printer!
@@ -16,14 +16,16 @@ This repo has some scripts and e.g. klipper_konfigs for the printer
 You can clone the repository wherever you want. (I like to keep it in `~/voron-2.4-r2-config`) The installer script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mathiasbynens/.git && cd dotfiles && ./install.sh
+git clone https://github.com/jaskazzz/voron-2.4-r2-config.git && cd voron-2.4-r2-config && ./install.sh
 ```
 
-To update, `cd` into your local `dotfiles` repository and then:
+To update, `cd` into your local `voron-2.4-r2-config` repository and then:
 
 ```bash
 ./install.sh
 ```
+
+##### **Warning:** The script does NOT update automatically when using the "--update-remote" or the "--force" options
 
 To update later on, just run that command again
 #
@@ -32,13 +34,13 @@ To update later on, just run that command again
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
+[welcome](https://github.com/jaskazzz/voron-2.4-r2-config/issues)!
 
 ## Author
 
 | [![github/jaskazzz](https://avatars.githubusercontent.com/u/122743464?v=4 )](https://github.com/jaskazzz "Follow jaskazzz on Github") |
 |---|
-| [Jaskazzz]([https://mathiasbynens.be/](https://github.com/jaskazzz)) |
+| [Jaskazzz](https://github.com/jaskazzz) |
 
 ## Thanks to…
 

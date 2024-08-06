@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KLIPPER_LOGS_PATH=~/klipper_logs
+KLIPPER_LOGS_PATH="~/klipper_logs"
 
 if [ -z "$(ls -A $KLIPPER_LOGS_PATH)" ]; then
     echo "The log folder is alredy empty!"

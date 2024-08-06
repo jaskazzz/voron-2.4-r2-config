@@ -1,0 +1,6 @@
+[submodule "klipper_z_calibration"]
+	path = klipper_z_calibration
+	url = https://github.com/protoloft/klipper_z_calibration
+[submodule "klipper-led_effect"]
+	path = klipper-led_effect
+	url = https://github.com/julianschill/klipper-led_effect
